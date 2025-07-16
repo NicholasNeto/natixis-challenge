@@ -1,0 +1,11 @@
+# Ignorar as dependências locais 
+node_modules
+
+# Ignorar o ficheiro de lock que está a causar o problema
+package-lock.json
+
+# Ignorar a pasta de build local (se existir) 
+dist
+
+# Ignorar ficheiros de log e de debug do npm
+npm-debug.log*
