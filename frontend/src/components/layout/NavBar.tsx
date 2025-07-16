@@ -10,7 +10,6 @@ const Navbar: React.FC = () => {
 
   return (
     <header className="navbar">
-      {/* Secção Superior: Título e Ações do Utilizador */}
       <div className="top-bar">
         <NavLink to="/" className="navbar-brand">
           Product Catalog
@@ -32,14 +31,11 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Secção Inferior: Menu de Navegação */}
-      {/* Este menu só aparece se o utilizador estiver autenticado */}
       {isAuthenticated && (
         <nav className="main-nav">
           <NavLink to="/produtos" className="nav-link">
             Produtos
           </NavLink>
-          {/* Adicione outros links de menu aqui, se necessário */}
         </nav>
       )}
     </header>
