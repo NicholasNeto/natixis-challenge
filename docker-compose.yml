@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    restart: always
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:80" # Expõe o Nginx (porta 80 do contentor) na porta 5173 do seu PC
+    depends_on:
+      - backend
+    restart: always
+
