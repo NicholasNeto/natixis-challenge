@@ -1,0 +1,85 @@
+/* Estilo principal da barra de navegação inteira */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0 40px;
+    /* Removemos a altura fixa para permitir duas linhas */
+    display: flex;
+    flex-direction: column; /* Empilha as secções verticalmente */
+  }
+  
+  /* Secção Superior: Título e ações do utilizador */
+  .top-bar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Empurra os itens para os cantos */
+    align-items: center;
+    height: 60px; /* Altura da linha superior */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre "Olá" e o botão */
+  }
+  
+  .navbar-user {
+    color: #555;
+    font-weight: 500;
+  }
+  
+  /* Secção Inferior: Menu de navegação */
+  .main-nav {
+    width: 100%;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e7e7e7;
+  }
+  
+  .main-nav .nav-link {
+    display: inline-block; /* Faz com que o link se comporte como um bloco */
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  /* Estilo para o link ativo (página atual) */
+  .main-nav .nav-link.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .main-nav .nav-link:hover {
+    background-color: #e9ecef;
+  }
+  
+  
+  /* Estilo geral para botões e links que parecem botões */
+  .nav-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s;
+  }
+  
+  .nav-button:hover {
+    background-color: #0056b3;
+  }
+  
+  

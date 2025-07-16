@@ -1,0 +1,85 @@
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px B16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-card-content {
+    padding: 20px;
+  }
+  
+  .product-name {
+    font-size: 1.25rem;
+    color: #333;
+    margin: 0 0 10px;
+  }
+  
+  .product-description {
+    font-size: 0.9rem;
+    color: #666;
+    flex-grow: 1;
+    margin-bottom: 15px;
+  }
+  
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .product-price {
+    font-weight: 700;
+    color: #007bff;
+  }
+  
+  .product-stock {
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  .product-card-actions {
+    display: flex;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  .action-button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+  }
+  
+  .edit-button {
+    color: #007bff;
+    border-right: 1px solid #f0f0f0;
+    border-radius: 0 0 0 8px;
+  }
+  
+  .edit-button:hover {
+    background-color: #e7f3ff;
+  }
+  
+  .delete-button {
+    color: #d93025;
+    border-radius: 0 0 8px 0;
+  }
+  
+  .delete-button:hover {
+    background-color: #fce8e6;
+  }
+  
+  
