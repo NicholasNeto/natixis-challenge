@@ -38,7 +38,7 @@ The easiest way to get the entire application running is by using Docker Compose
 
 1.  **Clone the repository:**
     ```bash
-    git clone <YOUR_REPOSITORY_URL>
+    git clone https://github.com/NicholasNeto/natixis-challenge.git
     ```
 
 2.  **Navigate to the project directory:**
